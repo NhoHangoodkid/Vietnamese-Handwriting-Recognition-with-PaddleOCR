@@ -1,0 +1,83 @@
+# ==========================================
+# Byte-compiled / Optimized Python Files
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# ==========================================
+# Virtual Environments
+# ==========================================
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.env
+
+# ==========================================
+# Datasets and Large Data Files
+# ==========================================
+data/
+datasets/
+dataset/
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+train_gt*.txt
+valid_gt*.txt
+test_gt*.txt
+
+# ==========================================
+# Model Weights and Large Binary Artifacts
+# ==========================================
+weights/
+*.pdparams
+*.pdopt
+*.pdstates
+*.pdmodel
+*.pdiparams
+*.pdiparams.info
+*.onnx
+*.pth
+*.pt
+*.bin
+*.h5
+*.tflite
+inference/
+model_output/
+output/
+
+# ==========================================
+# Temporary Files, Logs, and Test Images
+# ==========================================
+*.tmp
+*.log
+temp_*
+uploaded_image.*
+*.png
+*.jpg
+*.jpeg
+*.svg
+!assets/*.png
+!assets/*.jpg
+scratch/
+
+# ==========================================
+# IDE and OS Specific Files
+# ==========================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+desktop.ini
+.pytest_cache/
+.ipynb_checkpoints/
+.system_generated/
