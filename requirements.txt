@@ -1,0 +1,9 @@
+streamlit>=1.30.0
+paddlepaddle>=2.5.0
+paddleocr>=2.7.0
+opencv-python>=4.8.0
+pillow>=9.5.0
+numpy<2.0.0
+pyyaml>=6.0
+pandas>=1.5.0
+streamlit-drawable-canvas>=0.9.0
